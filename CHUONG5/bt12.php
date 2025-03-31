@@ -3,6 +3,9 @@
 <head>
     <title>Bàn cờ vua</title>
     <style>
+        h2{
+
+        }
         table {
             border-collapse: collapse;
         }
@@ -19,7 +22,7 @@
     </style>
 </head>
 <body>
-
+        <h2>Bàn cờ vua</h2>
 <table>
     <?php
     for ($row = 0; $row < 8; $row++) {

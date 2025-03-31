@@ -5,7 +5,7 @@
     <title>Bảng Cửu Chương</title>
     <style>
         table {
-            width: 100%;
+            width: 30%;
             border-collapse: collapse;
             text-align: center;
         }
@@ -19,10 +19,10 @@
     </style>
 </head>
 <body>
-    <h2>Bảng Cửu Chương (Từ 1 đến 5)</h2>
+    <h2>Bảng Cửu Chương (Từ 1 đến 10)</h2>
     <?php
-    // Lặp qua các bảng cửu chương từ 1 đến 5
-    for ($b = 1; $b <= 5; $b++) {
+    // Lặp qua các bảng cửu chương từ 1 đến 10
+    for ($b = 1; $b <= 10; $b++) {
         echo "<div class='bảng-cửu-chương'>";
         echo "<h3>Bảng $b</h3>";
         echo "<table>";
@@ -37,3 +37,4 @@
     ?>
 </body>
 </html>
+
