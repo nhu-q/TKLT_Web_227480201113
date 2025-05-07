@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Mở trang web bằng hàm open của đối tượng window.</title>
+    <meta http-equiv="content-Type" content="text/html; charset=UTF-8" />
+  </head>
+  <body>
+    <script language="JavaScript">
+      var LuaChon;
+      LuaChon = prompt("Bạn hãy nhập vào một số để mở trang web: ", 1);
+      switch (LuaChon) {
+        case "1":
+          window.open("http://blu.edu.vn");
+          break;
+        case "2":
+          window.open("http://ctu.edu.vn");
+          break;
+        case "3":
+          window.open("http://vndoc.com");
+          break;
+        default:
+          window.open("http://meta.vn");
+      }
+    </script>
+  </body>
+</html>
